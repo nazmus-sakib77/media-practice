@@ -1,0 +1,31 @@
+
+header{
+    text-align: center;
+    min-height: 650px ;
+    background-image: url(../img/banner.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+
+
+}
+h1{
+
+    color: darkorange;
+    background-color: slategrey;
+  
+
+}
+button{ 
+    padding: 10px 15px;
+    font-size: 30px;
+    margin-top: 250px;
+    background-color: blue;
+    border-radius: 3px;
+    border: transparent;
+}
+button:hover{ 
+    transition: 0.7s;
+    color: white;
+    background-color: darkslategray;
+  
+}

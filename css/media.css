@@ -1,0 +1,115 @@
+ /* Extra small devices (portrait phones, less than 576px) */
+ @media (max-width: 575.98px) { 
+    header{
+        min-height: 283px ;
+        background-image: url(../img/laptop.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+    
+    
+    }
+
+    h1{
+        min-height: 10px;
+        font-size: 15px;
+        color: red;
+        background-color: green;
+      
+
+    }
+    button{
+        
+        font-size: 20px;
+        margin-top: 106px;
+        background-color: red;
+        border-radius: 3px;
+        border: transparent;
+    }
+    
+}
+
+ /* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) and (max-width: 767.98px) { 
+    header{
+        min-height: 358px;
+        background-image: url(../img/banner.png);
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+
+    h1{
+        
+        min-height: 10px;
+        font-size: 17px;
+        color: blue;
+        background-color: springgreen;
+      
+
+    }
+    button{
+        font-size: 24px;
+        margin-top: 156px;
+        background-color: springgreen;
+        border-radius: 3px;
+        border: transparent;
+    }
+    
+}
+
+ /* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) and (max-width: 991.98px) {
+
+    header{
+        min-height: 615px;
+        background-image: url(../img/div_img1.png);
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+    h1{
+        font-size: 19px;
+        color: aqua;
+        background-color: darkmagenta;
+      
+
+    }
+    button{
+        font-size: 27px;
+        margin-top: 262px;
+        background-color: sienna;
+        border-radius: 3px;
+        border: transparent;
+    }
+ }
+
+ /* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) and (max-width: 1199.98px) { 
+    header{
+        min-height: 622px;
+        background-image: url(../img/div_img2.png);
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+    h1{
+        font-size: 21px;
+        color: darkorange;
+        background-color: aqua;
+      
+
+    }
+  
+}
+/* Extra large devices (Extra large desktops, 1200px and up) */
+@media (min-width: 1200px) and (max-width: 1399.98px) { 
+
+  
+}
+/* Extra Extra large devices (Extra Extra large desktops, 1200px and up) */
+@media (min-width: 1400px) and (max-width: 1599.98px) { 
+
+    h1{
+        font-size: 26px;
+        color: red;
+        background-color: springgreen;
+    }
+    
+}
